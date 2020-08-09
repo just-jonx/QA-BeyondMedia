@@ -2,5 +2,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
 }
 
+  
+  li a {
+    color: #000000;
+  }
+
+  li a:hover {
+    color: gray;
+  }
