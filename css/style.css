@@ -42,6 +42,18 @@ body {
     background-position: center;
     height: 550px;
     color:#ffffff;
+    position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  width: 42%;
+  bottom: 20%;
+  left: 10%;
+}
+
+.heroText {
+  font-size: 28px;
 }
 
 /*********************** Text Sections *******************/
@@ -54,8 +66,12 @@ body {
   background-color: #000000;
 }
 
-#projectIMG {
-  background-image: url('../img/image-001.png');
+.bottom-left-card {
+  color: #ffffff;
+  position: absolute;
+  width: 80%;
+  bottom: 5%;
+  left: 10%;
 }
 
 footer {
@@ -73,8 +89,7 @@ footer {
 #features {
   text-align: left;
   position: relative;
-  height: 500px;
-  margin: 0;
+  margin-top: 0;
 }
 
 .feature-card {
@@ -93,4 +108,8 @@ grid-gap: 50px;
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+footer a {
+  color: #ffffff;
 }
