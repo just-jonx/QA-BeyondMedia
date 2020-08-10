@@ -68,3 +68,15 @@ footer {
   background-color: #292929;
   color: #ffffff;
 }
+
+.card {
+  background-color: #EEEEEE;
+  border-radius: 0px;
+  border: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
