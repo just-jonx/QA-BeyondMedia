@@ -14,12 +14,12 @@ body {
   cursor: pointer;
 }
 .navbar-brand {
-    margin-left: 20px;
+    margin-left: 60px;
 }
 .nav-link {
     font-weight: 500;
     font-size: 20px;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 .nav-link:hover {
   color: gray;
@@ -35,16 +35,21 @@ body {
 
 /*********************** Hero *******************/
 .jumbotron {
-    margin: 0 30px;
+  border-radius: 0px;
+    margin: 30px 80px;
     background-image: url('../img/bg-image.jpg');
     background-size: 100%;
     background-position: center;
     height: 550px;
-    color:#ffffff ;
+    color:#ffffff;
 }
 
 /*********************** Text Sections *******************/
 #textblock {
     margin: 100px auto;
     width: 70%;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000000;
 }
