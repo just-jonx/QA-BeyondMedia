@@ -69,10 +69,24 @@ footer {
   color: #ffffff;
 }
 
-.card {
+
+#features {
+  text-align: left;
+  position: relative;
+  height: 500px;
+  margin: 0;
+}
+
+.feature-card {
   background-color: #EEEEEE;
-  border-radius: 0px;
-  border: none;
+  padding: 20px;
+}
+
+#features .cards {
+
+display: grid;
+grid-template-columns: repeat(2, auto);
+grid-gap: 50px;
 }
 
 .wrapper {
