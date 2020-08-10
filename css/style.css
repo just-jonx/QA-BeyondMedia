@@ -39,6 +39,12 @@ body {
     background-image: url('../img/bg-image.jpg');
     background-size: 100%;
     background-position: center;
-    height: 500px;
+    height: 550px;
     color:#ffffff ;
+}
+
+/*********************** Text Sections *******************/
+#textblock {
+    margin: 100px auto;
+    width: 70%;
 }
